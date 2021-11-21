@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:registar/registration/registaretion.dart';
 import 'package:registar/registration/registration2.dart';
+import 'package:registar/registration/registration3.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Registration(),
+      home: Registration3(),
     );
   }
 }

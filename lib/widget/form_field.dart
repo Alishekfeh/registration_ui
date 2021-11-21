@@ -20,8 +20,9 @@ class WidgetFormField extends StatelessWidget {
         labelStyle: TextStyle(
           color: Colors.white,
           fontSize: 20,
+
         ),
-        hintStyle: TextStyle(color: Color(0xFF686868)),
+        hintStyle: TextStyle(color: Color(0xFF655555)),
         enabledBorder: UnderlineInputBorder(
           borderSide: BorderSide(color: Colors.white),
         ),
